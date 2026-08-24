@@ -1,6 +1,6 @@
 # Brainwave Audio API — Public Reference
 
-This is a documentation-only public repository. It intentionally contains no source code, audio, model files, test data, configuration files, credentials, internal reports, or build artefacts.
+This public repository intentionally contains no source code, model files, test data, configuration files, credentials, internal reports, or build artefacts. Its only media asset is the explicitly provided five-minute MP3 demonstration listed below.
 
 # PART I — ENGLISH
 
@@ -127,6 +127,12 @@ Verification can include:
 | Master safety | Peak/headroom and render-variant safety information. |
 
 Codec differences alone do not prove a requested method survived. Aggregate comparison can show a shared causal ambiguity. For strong per-method evidence, request leave-one-out verification and preserve the output, QA report, and manifest together.
+
+### 1.9 Demonstration audio
+
+The repository includes one five-minute MP3 demo, prepared from an audio source explicitly supplied for this public demonstration. It is encoded as stereo MP3 CBR 256 kb/s at 44.1 kHz and is provided solely as a listening example of the delivery format. It does not establish listener outcomes or replace the API proof workflow.
+
+Demo file: [`demo/leberch-fantasy-ambient-5min-demo-256kbps.mp3`](demo/leberch-fantasy-ambient-5min-demo-256kbps.mp3)
 
 ## 2. API v2 — complete reference
 
@@ -469,6 +475,12 @@ Brainwave Audio Engine — офлайн-ориентированная сист�
 | Master safety | Информацию о пике/запасе и безопасности вариантов рендера. |
 
 Одни только различия кодека не доказывают сохранность требуемого метода. Aggregate comparison может иметь общую причинную неоднозначность. Для сильного доказательства по каждому методу запрашивайте leave-one-out проверку и храните вместе выходной файл, QA-отчёт и манифест.
+
+### 1.9 Демонстрационное аудио
+
+Репозиторий содержит один пятиминутный MP3-демо, подготовленный из аудиоисточника, явно предоставленного для этой публичной демонстрации. Он закодирован как stereo MP3 CBR 256 кбит/с при 44,1 кГц и предоставляется только как пример прослушивания формата доставки. Он не устанавливает эффект для слушателя и не заменяет workflow доказательств API.
+
+Демо-файл: [`demo/leberch-fantasy-ambient-5min-demo-256kbps.mp3`](demo/leberch-fantasy-ambient-5min-demo-256kbps.mp3)
 
 ## 2. API v2 — полная справка
 
